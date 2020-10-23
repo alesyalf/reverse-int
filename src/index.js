@@ -1,4 +1,7 @@
 module.exports = function reverse (n) {
+  if (n < 0){
+      n *= -1;
+  }
   let k = 0;
   let n_copy = n;
   while (n_copy){
